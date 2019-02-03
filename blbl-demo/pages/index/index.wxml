@@ -1,0 +1,37 @@
+<view class="main">
+<mytitle></mytitle>
+<!-- 首页导航 -->
+<view class='nav-wrap'>
+<scroll-view class='nev-s' scroll-x>
+<view bindtap='navtap' data-a='{{index}}' class='nav-item {{index===currentc?"active":" "}}' wx:for="{{navList}}" wx:key="{{index}}">{{item.text}}</view>
+</scroll-view>
+</view> 
+<!-- 轮播图 -->
+<view class='slide'>
+<swiper autoplay indicator-dots > 
+<swiper-item wx:for="{{swiperlist}}" wx:key="{{index}}"> <navigator>
+<image src='{{item.imgSrc}}' mode='widthFix'></image></navigator>
+</swiper-item>
+</swiper>
+</view>
+<!-- 视频列表 -->
+<view class='video-wrap'>
+<navigator url='../detail/detail?id="{{item.id}}"' class='video-item' wx:for="{{videolist}}" wx:key="{{index}}">
+<view class='v-img'>
+<image src='{{item.imgSrc}}' mode='widthFix'></image>
+<view class='v-icon'>
+<view>
+<text class='iconfont icon-dianshi'></text>
+<text>{{item.playCount}}</text>
+</view>
+<view>
+<text class='iconfont icon-liuyan'></text>
+<text>{{item.commentCount}}</text>
+</view>
+</view>
+</view>
+<view class='v-desc'>{{item.desc}}</view>
+</navigator>
+</view>
+
+</view>

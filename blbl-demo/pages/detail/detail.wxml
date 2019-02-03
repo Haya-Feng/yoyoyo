@@ -1,0 +1,55 @@
+<view class="main">
+<mytitle></mytitle>
+<!-- 视频详情 -->
+<view class='video-desc'>
+<video src='{{videoInfo.videoSrc}}' controls></video>
+<view class='v-title'>{{videoInfo.videoTitle}}</view>
+<view class='v-desc'>
+<text class='v-auth'>{{videoInfo.author}}</text>
+<text class='v-play'>{{videoInfo.playCount}}次观看</text>
+<text class='v-cont'> {{videoInfo.commentCount}}弹幕</text>
+<text class='v-date'>{{videoInfo.date}}</text>
+</view>
+</view>
+<!-- 推荐视频 -->
+<view class='other-list'>
+<navigator class='other-item' wx:for="{{othersList}}"wx:key="{{index}}" >
+<view class='other-v'>
+<image src='{{item.imgSrc}}' mode='widthFix' ></image>
+<view class='other-time'>
+<!-- 时长 -->
+{{item.duration}}
+</view>
+</view>
+<view class='other-info'>
+<view class='other-title'>{{item.title}}</view>
+<view class='other-desc'>
+<text class='other-p'>{{item.playMsg}}次观看</text>
+<text class='other-c'>{{item.commentCount}}弹幕</text>
+</view>
+</view>
+</navigator>
+</view>
+<!-- 评论列表 -->
+<view class='com-wrap'>
+<view class='c-title'>
+评论（{{commentData.commentTotalCount}}）
+</view>
+<view class='c-list' wx:for="{{commentData.commentList}}" wx:key="{{index}}">
+<!-- zuo -->
+<view class='c-user'>
+<image src='{{item.userIconSrc}}' mode='widthFix'></image>
+</view>
+<!-- you -->
+<view class='c-desc'>
+<view class='c-au'>
+<text class='c-au-au'>{{item.username}}</text>
+<text class='c-au-d'>{{item.commentDate}}</text>
+</view>
+<view class='c-cont'>{{item.commentInfo}}</view>
+</view>
+
+</view>
+</view>
+
+</view>

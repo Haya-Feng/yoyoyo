@@ -1,0 +1,12 @@
+<view class="mytitle-main">
+<!-- logo -->
+<navigator class='t-logo'>
+<image src='../icon/logo.png' style='width:190rpx;height:120rpx;'></image>
+</navigator>
+<!-- 搜索 -->
+<view class='t-search'><image src='../icon/sousuo.png' style='width:50rpx;height:50rpx;'></image> </view>
+<!-- 用户 -->
+<view class='t-user'><image src='../icon/user.png' style='width:70rpx;height:70rpx;'></image> </view>
+<!-- app -->
+<view class='t-down'>下载 APP </view>
+</view>

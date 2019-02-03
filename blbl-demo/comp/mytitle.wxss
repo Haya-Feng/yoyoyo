@@ -1,0 +1,47 @@
+/* comp/mytitle.wxss */
+.mytitle-main{
+  display: flex;
+  align-items: center;
+  padding:10rpx;
+}
+.t-logo{
+  flex: 7;
+  margin-top: 10rpx;
+   /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* width: 140rpx;
+  height: 60rpx; */
+}
+/* .t-user .t-search .t-down{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.t-search{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  /* width: 60rpx;
+  height: 44rpx; */
+}
+.t-user{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+  width: 54rpx;
+  height: 60rpx;
+}
+.t-down{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 3;
+  font-size: 30rpx;
+  background-color: #000;
+  color: #fff;
+  padding: 10rpx;
+  border-radius: 10rpx;
+}
