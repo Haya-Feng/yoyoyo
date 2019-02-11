@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="androidcheckboxoutlineblank" unicode="&#58968;" d="M810.666 682.666l0-597.332L213.334 85.334 213.334 682.666 810.666 682.666M810.666 768 213.334 768C166.396 768 128 729.604 128 682.666l0-597.332C128 38.396 166.396 0 213.334 0l597.332 0C857.604 0 896 38.396 896 85.334L896 682.666C896 729.604 857.604 768 810.666 768L810.666 768z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="androidcheckboxoutline" unicode="&#58969;" d="M337.062 465.062l-59.728-59.728 192-192L896 640l-59.728 59.728L469.334 334.938 337.062 465.062zM810.666 85.334 213.334 85.334 213.334 682.666 640 682.666 640 768 213.334 768C166.396 768 128 729.604 128 682.666l0-597.332C128 38.396 166.396 0 213.334 0l597.332 0C857.604 0 896 38.396 896 85.334L896 426.666l-85.334 0L810.666 85.334z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
