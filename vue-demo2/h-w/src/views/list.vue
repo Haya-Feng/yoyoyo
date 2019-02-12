@@ -3,6 +3,40 @@
 <template>
   <div class="list">
   <div id="main"></div>
+  <div class="icon-l">
+   <div class="icon-item ">
+
+    <i class="iconfont icon-shouye"></i>
+    <div class="ic-t">  <a href="https://www.bilibili.com/">首页</a>
+</div>
+   </div>
+   <div class="icon-item ">
+    <i class="iconfont icon-xin"></i>
+    <div class="ic-t">  <a href="https://www.bilibili.com/">关注</a>
+</div>
+
+   </div>
+   <div class="icon-item">
+    <i class="iconfont icon-bofangqi-bofangxiaodianshi"></i>
+    <div class="ic-t">  <a href="https://www.bilibili.com/">频道</a>
+</div>
+
+   </div>
+   </div>
+   <div class="icon-two">
+   <div class="icon-item ">
+    <i class="iconfont icon-dongtai"></i>
+    <div class="ic-t">  <a href="https://www.bilibili.com/">动态</a>
+</div>
+   </div>
+   <div class="icon-item ">
+    <i class="iconfont icon-shezhi"></i>
+    <div class="ic-t">  <a href="https://www.bilibili.com/">设置</a>
+</div>
+
+   </div>
+  </div>
+
 
   <ul>
    <li v-for="(item,index) in list" :key="index">
@@ -18,7 +52,8 @@
 
 <script>
 import echarts from 'echarts'
-
+import '../assets/font/iconfont.css'
+import './main.css'
 import store from '@/store.js'
 export default {
 	name:'list',
@@ -109,8 +144,10 @@ export default {
 
 </script>
 <style scoped>
+
 #main{
-	width:400px;
-	height:400px;
+	width:300px;
+	height:300px;
+    margin:0 auto;
 }
 </style>

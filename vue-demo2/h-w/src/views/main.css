@@ -24,3 +24,42 @@ a.router-link-exact-active {
 	      color: #000;
 
 }
+#id{
+	margin: 0 auto;
+}
+
+.icon-l{
+	border-top: 1px solid #232323;
+	/*display: flex;*/
+	/*justify-content: space-around;*/
+	/*flex-direction: row;*/
+	margin: 0 auto;
+	/*display: inline-block;*/
+	display: flex;
+	flex-direction: row row-wrap;
+	justify-content: space-around;
+	/*max-width: 375px;*/
+	
+}
+.icon-two{
+	/*border-top: 1px solid #232323;*/
+	/*display: flex;*/
+	/*justify-content: space-around;*/
+	/*flex-direction: row;*/
+	margin: 0 auto;
+	/*display: inline-block;*/
+	display: flex;
+	flex-direction: row row-wrap;
+	justify-content: space-around;
+
+}
+.icon-item{
+	font-size: 30px;
+	padding: 40px 10px 10px 15px;
+}
+.iconfont{
+	font-size: 40px;
+}
+.ic-t{
+	font-size: 15px;
+}

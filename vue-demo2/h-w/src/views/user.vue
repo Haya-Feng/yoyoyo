@@ -40,6 +40,7 @@ export default {
    height:100px;
    border-radius:50%;
 	background-color:#000;
+
 	margin:0 auto;
     
 }
