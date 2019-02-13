@@ -1,0 +1,151 @@
+a:hover{
+text-decoration: none;
+
+}
+img{
+	display: block;
+	max-width: 100%;
+	border-radius: 10px;
+}
+.navbar-brand{
+	background-image: url('../img/logo.png');
+	width: 50px;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.sild-bar .list-group-item{
+	border: 0;
+	border-radius: 10px;
+	margin-bottom: 5px;
+
+}
+.sild-bar .active{
+	background: #ea0c3c;
+}
+
+.news-item{
+	padding: 25px 0px;
+	border-bottom: 1px solid #888;
+}
+.news-item:first-child{
+	padding-top: 0px;
+}
+.news-item .titil{
+	color: #000;
+	display: block;
+	font-size: 18px;
+	font-weight: bold；
+	line-height:1.5;
+
+}
+.news-item .titil:hover{
+	color: #888;
+}
+.news-item .info {
+	margin-top: 10px;
+	color: #888;
+}
+.news-item .info .avaert img{
+display: inline-block;
+width: 35px;
+border-radius: 50%;
+margin-right: 5px;
+}
+ 
+.sec-bar{
+	background: rgba(0,0,0,.05);
+	margin:15px 0px;
+	padding: 15px 0px;
+	border-radius: 10px；
+}
+#text{
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px；
+}
+#text:hover{
+	color: #888;
+}
+.text-body{
+	background: rgba(0,0,0,.05);
+}
+.text-body-title{
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 8px;
+	padding-top: 3px;
+	padding-left: 15px;
+
+
+}
+.text-body-item{
+
+	margin-bottom: 5px;
+}
+.text-body-item span{
+	color: #888;
+}
+.text-body-item:hover{
+    color: #666;
+}
+
+.news-title{
+	line-height: 1.5;
+	margin-bottom: 5px;
+}
+.news-down .label{
+	opacity: .5;
+	margin-bottom: 10px;
+}
+.news-con img{
+margin-bottom: 10px;
+}
+.news-con{
+	font-size: 18px;
+	font-weight: bold;}
+.news-con p{
+	text-indent: 2em;
+}	
+.card-title{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+.side-bar-card{
+	background: rgba(0,0,0,0.1);
+}
+.card-body .card-main{
+	padding-left: 0;
+	padding-right: 0;
+}
+.card-body .list .item{
+	margin-bottom: 15px;
+}
+.desc{
+	color: #888;
+	margin-top: 10px;
+}
+.side-bar-card{
+	margin-bottom: 30px;
+}
+.footer{
+	color: #888;
+	text-align: center;
+	margin-top: 120px;
+}
+.container-small{
+	max-width: 500px;
+}
+.btn-primary{
+	background-color: #ea0c3c;
+	border-color: #d80a37;
+}
+.btn-primary:hover{
+	background-color: #bb0930;
+	border-color: #bb0930;
+}
