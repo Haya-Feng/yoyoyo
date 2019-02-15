@@ -18,7 +18,7 @@
 		</div>
         	<div class="ic">
         		<div @click="remebe=!remebe" class="ic-item">
-			<i class="iconfont" :class="{'icon-androidcheckboxoutlineblank':remebe,'icon-androidcheckboxoutline':!remebe}"></i>
+			<i class="iconfont" :class="{'icon-androidcheckboxoutline':remebe,'icon-androidcheckboxoutlineblank':!remebe}"></i>
 			<span>记住密码</span>
             </div>
             	        		<div @click="autologin=!autologin" class="ic-item">
@@ -76,7 +76,7 @@
     repeat:' ',
     is:false,
     isactive:1,
-    remebe:true,
+    remebe:flase,
     autologin:true
     }
   },
@@ -96,7 +96,6 @@ ing(){
 yep(){
 	if(this.userpassword === this.repeat && this.userpassword!==0){
 	localStorage.setItem('username', JSON.stringify(this.username));
-
 	localStorage.setItem('userpassword', JSON.stringify(this.userpassword));
 	}else{
 
