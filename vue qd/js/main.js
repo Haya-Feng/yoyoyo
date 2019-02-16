@@ -6,6 +6,7 @@
         l_id:0,
     	list:[],
     	current:{},
+      
     },
  
       // mounted:function(){
@@ -23,6 +24,7 @@
      // var a = ms.get('list')zz
      // console.log(a);
     methods:{
+      
         check_at(){
             var me = this;
             this.list.forEach(function(row,i){

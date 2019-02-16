@@ -1,5 +1,5 @@
 *{
-	background: rgba(0,0,0,.01);
+	
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -10,11 +10,21 @@ input,textarea{
 	width: 100%;
 	display: block;
 	margin-bottom: 5px;
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
 }
 input,button,textarea{
 	border: 1px solid rgba(0,0,0,.1);
 	border-radius: 3px;
 	padding: 10px 15px;
+}
+input:focus, textarea:focus {
+    border: 1px solid #454698;
+}
+button.primary {
+    background: #db4c3f;
+    color: #f7f3ea;
 }
 .navbar{
 	background: #234762;
@@ -47,4 +57,44 @@ input,button,textarea{
 #aaa{
 	background: #2d72a5;
 	color: #fff;
+}
+html,body{
+	height: 100%;
+}
+#main{
+	background: rgba(0,0,0,.01);
+	height: 100%;
+}
+.item{
+	padding: 10px 0 10px;
+}
+.item button{
+	
+	background: #fff;
+
+}
+.completed-item{
+	padding: 10px 0 10px;
+
+}
+.completed-item button{
+   background: #fff;
+}
+.egg{
+	width: 30px;
+    height: 30px;
+    background: #50beff;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+#c-egg{
+	width: 30px;
+    height: 30px;
+    background: #798388;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
