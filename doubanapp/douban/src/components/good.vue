@@ -141,12 +141,12 @@ export default {
   }
   },
   computed:{
-  ...mapState(["lists"]),
   
    
   },
   
   methods:{
+  ...mapState(["lists"]),
 
   addToCart(goods){
               var alreadyIndex = this.lists.findIndex(function (item, index) {
@@ -159,9 +159,7 @@ export default {
           var alreadyGoods = this.lists[alreadyIndex];
           if(alreadyGoods.quantity < alreadyGoods.stock){
            ++alreadyGoods.quantity
-           store.commit('additem',
-           quantity
-           )
+           state.lists.quantity = {...state.lists.quantity,quantity:alreadyGoods.quantity}
           }
                     
             }
